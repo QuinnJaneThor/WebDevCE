@@ -8,6 +8,8 @@ body {
 header {
     background-color:rgb(225, 193, 255);
     margin: 0;
+    text-align: center;
+    color: blueviolet;
 }
 
 /* nav stuff here*/
@@ -20,5 +22,51 @@ nav ul{
     margin: 0;
     list-style-type: none;
     padding: 0 10px;
-    flex: flex;
+    display: flex;
 }
+
+nav {
+    display: block;
+    padding: .83rem .83rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:  rgb(0, 45, 247);
+    font-weight: 700;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color:  rgb(0, 45, 247);;
+}
+
+nav a:hover{
+    color: white
+}
+
+/*main stuff here*/
+
+main {
+    padding: 1rem 15px;
+}
+
+main div classes-paragraphs {
+    font-size: 20pt;
+}
+
+main h2 {
+    font-size: 30pt;
+    text-align: center;
+}
+
+main .classes-paragraphs {
+    display: flex;
+}
+
+main .classes-paragraphs p {
+    width: 50%;
+}
+
