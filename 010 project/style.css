@@ -1,0 +1,148 @@
+body {
+    font-family: Cedarville cursive;
+    margin: 0;
+}
+/*Header stuff here*/
+header {
+    background-color: rgb(207, 244, 255);
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    margin-left: 1em;
+}
+
+figure {
+    margin-left: 0;
+}
+
+/*small screen navigation*/
+@media only screen and (max-width: 800px) {
+
+
+nav {
+    background-color: rgb(188, 240, 228);
+    display: block;
+    padding: .83rem .83rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 700;
+  
+}
+
+nav ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav ul li {
+    padding: 10px;
+    border: 2px solid white;
+    text-align: center;
+            background-image: linear-gradient(to bottom, white, rgb (201, 240, 255));
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: white
+} /*end small screens*/
+}
+/*Large screen navigation*/
+@media only screen and (min-width: 801px) {
+
+nav {
+    border-top: solid 1px #E0E6E6;
+    background-color:  rgb(188, 240, 228);
+    
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    text-align: center;
+}
+nav a {
+    display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+}
+
+nav .active a {
+    border-bottom: solid 2px #8b5022;
+}
+nav a:hover {
+    color: white
+}
+
+}
+ /*end large screens*/
+
+ /*main stuff here*/
+
+
+ .myform fieldset {
+    border: 1px solid ;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myform legend {
+    color: black;
+    font-size: .8rem;
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tell], .myform textarea{
+    display: block;
+}
+
+.myform [type=text], .myform [type=tel], .myform select, .myform textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-weight: 200;
+}
+
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required {
+    background-color: rgb(207, 244, 255);
+    
+
+.myform [type=submit] {
+    background-color: rgb(207, 244, 255);
+    
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
